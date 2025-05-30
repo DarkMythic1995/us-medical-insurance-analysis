@@ -1,0 +1,44 @@
+U.S. Medical Insurance Costs Analysis
+===================================
+Key Findings:
+
+Average Charges by Smoker Status:
+smoker
+no      8434.27
+yes    32050.23
+Name: charges, dtype: float64
+
+Average Charges by Region:
+region
+northeast    13406.38
+northwest    12417.58
+southeast    14735.41
+southwest    12346.94
+Name: charges, dtype: float64
+
+Average Charges for High BMI (>30) and Smokers:
+$41557.99
+
+Average Charges for High BMI (>30) and Non-Smokers:
+$8842.69
+
+Average Charges for Age > 50:
+$17902.55
+
+Correlation Matrix:
+           age   bmi  children  charges
+age       1.00  0.11      0.04     0.30
+bmi       0.11  1.00      0.01     0.20
+children  0.04  0.01      1.00     0.07
+charges   0.30  0.20      0.07     1.00
+
+Outlier Analysis (Top 5% Charges):
+         age    bmi   charges
+count  67.00  67.00     67.00
+mean   50.36  37.01  46585.29
+std    10.43   4.65   4660.59
+min    22.00  30.21  41661.60
+25%    44.50  33.99  43666.14
+50%    52.00  36.38  46113.51
+75%    59.50  39.42  47912.41
+max    64.00  52.58  63770.43
