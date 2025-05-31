@@ -70,12 +70,12 @@ My analysis revealed significant drivers of insurance charges:
   - Age vs. charges: 0.30
   - BMI vs. charges: 0.20
 Children vs. charges: 0.07 (negligible).
--  Visualizations:
+- **Visualizations**:
 If matplotlib is installed, bar charts show average charges by smoker status and region. Example:
 
 Note: Install matplotlib (pip install matplotlib) and save plots with plt.savefig('images/smoker_charges.png') to include them. Otherwise, see insurance_analysis.txt for detailed results.
 
-Code Example
+## Code Example
 Analyzing charges by BMI categories:
 ```python
 def charges_by_bmi_category():
@@ -93,6 +93,12 @@ Normal         10409.45
 Overweight     11020.33
 Obese          15440.25
 ```
+
+## Visualizations
+![Average Charges by Smoker Status](https://github.com/user-attachments/assets/18d7f428-5d3a-49c2-9761-c5b2f97b8c6f)
+
+![Average Charges by Region](https://github.com/user-attachments/assets/3d7499c1-6d18-4d9c-a5a7-709ad2ce321d)
+
 
 ## Conclusion
 Smoking and high BMI are the primary drivers of insurance charges, with smokers and obese individuals facing significantly higher costs. Age and region play secondary roles, while sex has minimal impact.
@@ -117,3 +123,10 @@ python insurance_analysis.py
 
 4.  View results in insurance_analysis.txt or console.
 Note: insurance.csv is required. Contact me if the link is not working.
+
+## Connect
+I’m passionate about data science! Let’s connect:
+
+[LinkedIn](https://www.linkedin.com/in/maura-meighan-a8876628a/)
+[GitHub](https://github.com/DarkMythic1995)
+Email: meighanmaura@gmail.com
