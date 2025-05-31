@@ -1,9 +1,9 @@
 # U.S. Medical Insurance Costs Analysis
 
 ## Introduction
-I analyzed a dataset of U.S. medical insurance costs to uncover factors driving insurance charges. Using **Python** and **pandas**, I built modular functions to explore relationships between charges and features like smoking status, BMI, age, and region. This project demonstrates my skills in data analysis, Python programming, and deriving actionable insights from real-world data.
+I analyzed a dataset of U.S. medical insurance costs to uncover factors driving insurance charges. Using **Python** and **pandas**, I built functions to explore relationships between charges and features like smoking status, BMI, age, and region. This project demonstrates my skills in data analysis, Python programming, and deriving actionable insights from real-world data.
 
-[View the full code on GitHub](https://github.com/yourusername/us-medical-insurance-analysis) | [Connect with me on LinkedIn](https://www.linkedin.com/in/maura-meighan-a8876628a/)
+[View the full code on GitHub](https://github.com/DarkMythic1995/us-medical-insurance-analysis/blob/main/us-medical-insurance-costs.ipynb) | [Connect with me on LinkedIn](https://www.linkedin.com/in/maura-meighan-a8876628a/)
 
 ## Table of Contents
 - [Dataset Overview](#dataset-overview)
