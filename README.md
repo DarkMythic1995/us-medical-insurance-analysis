@@ -73,7 +73,9 @@ Children vs. charges: 0.07 (negligible).
 - **Visualizations**:
 If matplotlib is installed, bar charts show average charges by smoker status and region. Example:
 
-Note: Install matplotlib (pip install matplotlib) and save plots with plt.savefig('images/smoker_charges.png') to include them. Otherwise, see insurance_analysis.txt for detailed results.
+### Note:
+Install matplotlib (`pip install matplotlib`) and save plots with plt.savefig(`images/smoker_charges.png`) to include them. 
+Otherwise, see [insurance_analysis.txt](https://github.com/DarkMythic1995/us-medical-insurance-analysis/blob/main/insurance_analysis.txt) for detailed results.
 
 ## Code Example
 Analyzing charges by BMI categories:
